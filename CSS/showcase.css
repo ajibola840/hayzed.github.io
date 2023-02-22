@@ -1,0 +1,14 @@
+#showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  
+    margin-top: 70px;
+     
+}
+
+#showcase img {
+    height: 250px;
+    width: 1000px;
+}

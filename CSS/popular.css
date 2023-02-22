@@ -1,0 +1,71 @@
+.pop-games , .vouch{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    margin-top: 50px;
+}
+
+
+.all-games img  {
+
+    width: 200px;
+    height: 150px;
+
+}
+
+.vouch-chers img  {
+
+    width: 200px;
+    height: 150px;
+
+}
+
+.all-games, .vouch-chers p {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    transition: cubic-bezier();
+
+    
+}
+
+
+
+.all-games, .vouch-chers{
+
+    width: 200px;
+    height: 230px;
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #34213d;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    text-align: center;
+    
+}
+
+#popular, #vouchers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 5px;
+
+}
+
+@media screen and (min-width:480px){
+    #popular{ grid-template-columns: repeat(6, 1fr);
+        gap: 20px 5px;
+
+    }
+}
+
+
+@media screen and (min-width:800px){
+    #vouchers{ grid-template-columns: repeat(6, 1fr);
+        gap: 20px 5px;
+
+    }
+}
+

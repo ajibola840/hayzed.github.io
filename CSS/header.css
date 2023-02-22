@@ -1,0 +1,83 @@
+.head{
+    height: 50px;
+    background-color: rgba(83, 51, 90, 255);
+    color: white;
+    
+    top: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+
+}
+img {
+    height: 25px;
+    
+    
+}
+
+.search-icon, .notification-bell-icon{
+    margin: 0 20px;
+}
+
+.others{
+    display:flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: right;
+    margin: 0 20px;
+    flex-shrink: 0;
+    
+}
+
+.nav{
+   margin-left:10px;
+   width: 50px;
+   display: flex;
+   
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.p1 {
+   
+    font-size: 20px;
+    font-weight: 700;
+    
+
+}
+.p1,.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p2{
+    font-size: 15px;
+    text-decoration: wavy;
+    margin-left: 10px;
+    color: azure;
+
+   
+}
+
+.others button{
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin-left: 20px;
+    padding: 5px 5px;
+    width: 100px;
+    color: white;
+    
+}
+   

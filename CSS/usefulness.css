@@ -1,0 +1,62 @@
+#usefulness{
+    display: flex;
+    color: white;
+    flex-direction: column;
+
+}
+
+.code-txt{
+    font-size: 30px;
+    font-weight: 800;
+
+}
+.code-txt2{
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+.code-txt3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.help{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+.details{
+    margin-left: 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic-text{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+
+.pic-text p {
+    all: unset;
+}
+.pic-text img{
+    
+    height: 60px;
+    background-color: white;
+    width: auto;
+    padding: 4px 5px;
+    border-radius: 50%;
+}
+.details p:first-child{
+    font-size:20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
